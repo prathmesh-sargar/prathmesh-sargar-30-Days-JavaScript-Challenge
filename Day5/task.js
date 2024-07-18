@@ -156,3 +156,4 @@ function square1(num){
 
 const demo = applyfun(mul,square,5)
 console.log(demo);
+
