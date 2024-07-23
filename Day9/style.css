@@ -1,0 +1,29 @@
+.divbg{
+    height: 300px;
+    width: 500px;
+    background-color: red;
+}
+
+img{
+    height: 200px;
+}
+
+.bg{
+    height: 200px;
+    width: 200px;
+    background-color:yellow;
+}
+
+#idbg{
+    border-radius: 50%;
+}
+
+.move{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    z-index: 1;
+}
