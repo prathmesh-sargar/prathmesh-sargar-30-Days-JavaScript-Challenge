@@ -88,7 +88,7 @@ console.log(Playboy.TrustLove());
 // --------------------------------------------------------------------------------------
 
 class Account {   // here is account :   
-  
+
 
     #balance;
     constructor(initialBalance) {
