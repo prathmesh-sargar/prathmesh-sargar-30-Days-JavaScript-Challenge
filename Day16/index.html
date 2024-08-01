@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="app.js" defer></script>
+    <script src="app2.js" defer></script>
+
+    <title>Local Storage vs Session Storage</title>
+  </head>
+  <body>
+    <h1>Local Storage VS Session Storage</h1>
+    <br /><br />
+
+    <h2>Local storage data : <span id="mynameval"></span></h2>
+    <br /><br />
+
+    <h1>
+      data :
+      <p id="userdata"></p>
+    </h1>
+    <br /><br />
+
+    <form id="userForm">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <button type="submit">Save</button>
+    </form>
+    <div id="userData"></div>
+
+    <h2>Session Storage</h2>
+
+    <form id="sessionForm">
+      <input type="text" id="sessionName" placeholder="Name" required />
+      <input type="email" id="sessionEmail" placeholder="Email" required />
+      <button type="submit">Save</button>
+    </form>
+    <div id="sessionUserData"></div>
+  </body>
+</html>

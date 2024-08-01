@@ -1,0 +1,34 @@
+
+Feature	                    localStorage	                              sessionStorage
+
+Lifetime	        Persistent (until explicitly deleted)	           Session-based (deleted on tab close)
+Storage Capacity	   Typically 5-10 MB	                               Typically around 5 MB
+Accessibility	     Accessible from any window or tab	                    Accessible only within the same tab
+Use Case	          Long-term storage	                                Short-term, session-specific storage
+
+
+
+localStorage ----------
+localStorage is used to store data with no expiration date.
+ This means the data will persist even when the browser is closed and reopened. 
+ It is useful for storing data that you want to be available across browser sessions.
+
+Key Points:
+
+Persistent storage: Data remains even after closing the browser.
+Storage limit: Typically around 5-10 MB depending on the browser.
+Synchronous API: Operations are completed immediately.
+
+
+sessionStorage ----------
+sessionStorage is used to store data for a single session. 
+The data is deleted when the browser tab is closed. 
+It is useful for storing temporary data that should not persist between sessions.
+
+Key Points:
+
+Session-based storage: Data is deleted when the browser tab is closed.
+Storage limit: Typically around 5 MB depending on the browser.
+Synchronous API: Operations are completed immediately.
+
+
